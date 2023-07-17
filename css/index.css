@@ -12,6 +12,7 @@
   nav{
     background-color: #212529;
     position: fixed;
+    z-index: 10;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -96,5 +97,97 @@
     background-position: center;
     background-repeat: no-repeat;
 /*     background-image: no-repeat url('../assets/img/marcaYoutube.png'); */
+  }
+
+  main .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  main .content .title{
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+  }
+
+  main .content .description{
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 1.2rem;
+  }
+
+  .container{
+    width: 100%;
+    position: relative;
+    background-color: #F8F9FA;
+  }
+
+  .container section{
+    padding: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  section .title-section{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  section .content-section{
+    margin-top: 1rem;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  .skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-skill{
+    width: 125px;
+    height: 125px;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-skill img{
+    width: 80%;
+    object-fit: cover;
+  }
+
+  .card-skill:nth-child(1),
+  .card-skill:nth-child(2){
+    background-color: #DEE2E6;
+  }
+
+  .card-skill:nth-child(3),
+  .card-skill:nth-child(4){
+    background-color: #CED4DA;
+  }
+
+  .card-skill:nth-child(5),
+  .card-skill:nth-child(6){
+    background-color: #ADB5BD;
+  } 
+
+  .proyectos{
+    background-color: #212529;
+    color: #F8F9FA;
+  }
+
+  h3{
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: normal;
   }
 }
