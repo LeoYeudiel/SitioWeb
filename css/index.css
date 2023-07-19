@@ -185,9 +185,40 @@
     color: #F8F9FA;
   }
 
-  h3{
+  .title-proyecto{
+    margin-top: 1.2rem;
+  }
+
+  .title-proyecto h3{
     font-size: 1.2rem;
     font-weight: 300;
     font-style: normal;
+  }
+
+  .content-proyecto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+  }
+
+  .content-proyecto .card-proyecto{
+    width: 320px;
+    height: 550px;
+  }
+
+  .content-proyecto .card-proyecto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(4px);
+  }
+
+  .content-blog{
+    background-color: #E9ECEF;
+    height: 80vh;
+    width: 100%;
+    overflow: auto;
   }
 }
