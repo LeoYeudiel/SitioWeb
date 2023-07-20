@@ -221,4 +221,63 @@
     width: 100%;
     overflow: auto;
   }
+
+  footer{
+    margin-top: 1.2rem;
+  }
+
+  footer .title-fotter{
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .title-fotter h2{
+    font-weight: 300;
+    padding: 1.2rem;
+  }
+
+  .content-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.2rem;
+    width: 100%;
+  }
+
+  .content-footer .contact a{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .contact a .icon{
+    background-color: #D9D9D9;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+  }
+
+  .contact a .icon img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .contact a .description-contact{
+    margin-left: 1rem;
+  }
+
+  .copy{
+    text-align: center;
+  }
+
+  .copy p{
+    font-weight: 200;
+    font-style: italic;
+  }
 }
