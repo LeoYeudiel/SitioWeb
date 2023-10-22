@@ -145,9 +145,10 @@ section .content-section{
   font-size: 1rem;
 }
 
-.skills{
+.content-section.skills{
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
 }
 
