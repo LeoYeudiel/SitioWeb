@@ -194,11 +194,12 @@ section .content-section{
 
 .card-proyecto{
   width: 320px;
-  height: 440px;
   margin: 20px 20px;
+  
 }
 
 .card-proyecto .img-proyecto{
+  border-radius: 10px 10px 0 0;
   width: 100%;
   height: 220px;
   background-size: cover;
@@ -213,12 +214,49 @@ section .content-section{
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/img/estilos_css.png");
 }
 
-.card-proyecto .content-proyecto h3{
+.card-proyecto .content-proyecto{
+  width: 100%;
+  height: 240px;
+  background-color: #6C757D;
+  border-radius: 0 0 10px 10px;
+  border-top: #F8F9FA solid thin;
+}
+
+.card-proyecto .content-proyecto .title-proyecto h3{
   font-size: 24px;
   font-style: italic;
   font-weight: 500;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
+}
+
+.tags{
+  display: flex;
+  padding: 0 10px;
+}
+
+.tags span{
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+
+.tags .identanx{
+  background-color: #7D0240;
+}
+
+.tags .personal{
+  background-color: #4D194D;
+}
+
+.description{
+  padding: 10px;
+}
+
+.description a{
+  color: #F8F9FA;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 /* .card-proyecto .img-proyecto img{
@@ -228,11 +266,6 @@ section .content-section{
   background-color: #000000;
 } */
 
-.card-proyecto .content-proyecto{
-  width: 100%;
-  height: 220px;
-  background-color: #6C757D;
-}
 
 .content-blog{
   background-color: #E9ECEF;
